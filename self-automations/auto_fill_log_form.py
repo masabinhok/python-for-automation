@@ -1,5 +1,9 @@
 # This is a pyautogui automated script to fill out the daily log form for leapfrog learning challange.
 
+#You might need to edit some tab presses according to your device.
+
+#Do star the repo if it helps.
+
 # You should have python installed in your computer.
 
 #In your terminal, type 'pip install pyautogui' to install the pyautogui module.
@@ -43,6 +47,7 @@ pyautogui.press('enter')
 time.sleep(3)#delay
 
 #navigates to share button, you can edit the number of tabs to navigate to the desired position.
+pyautogui.press('tab')
 pyautogui.press('tab')
 pyautogui.press('tab')
 pyautogui.press('tab')
