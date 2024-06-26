@@ -24,7 +24,7 @@ time.sleep(2)
 
 pyautogui.press('/')
 
-pyautogui.write('#LSPPDay25')
+pyautogui.write('#LSPPDay26')
 pyautogui.press('enter')
 
 pyautogui.press('tab')
@@ -35,18 +35,11 @@ pyautogui.press('tab')
 
 
 time.sleep(3)
-
 pyautogui.press('j')
-pyautogui.press('j')
-pyautogui.press('j')
-pyautogui.press('j')
-pyautogui.press('j')
-pyautogui.press('j')
-pyautogui.press('j')
-
 
 for i in range(1, 200):
   pyautogui.press('j')
+  time.sleep(0.5)
   pyautogui.press('l')
   
 
