@@ -21,79 +21,26 @@ pyautogui.press('enter') #this presses enter.
 time.sleep(0.5) #delay
 
 # opens twitter,
-pyautogui.write('https://x.com/home')
+pyautogui.write('https://x.com')
 pyautogui.press('enter')
 
+print("Twitter opened...")
 
-time.sleep(2) #delay
+time.sleep(3)
 
-# navigates to profile
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
+pyautogui.press('g')
+pyautogui.press('p')
 
+time.sleep(4)
+pyautogui.press('j')
+pyautogui.press('s')
 pyautogui.press('enter')
 
-time.sleep(3)#delay
-
-#navigates to share button, you can edit the number of tabs to navigate to the desired position.
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-pyautogui.press('tab')
-
-
-time.sleep(0.5)#delay
-
-#Clicks on the share button and copies the link to the keyboard for the latest upload.
-pyautogui.press('enter')  
-pyautogui.press('enter')  
-
+print("Link copied...")
 
 # Link is copied, lets open the google form with its link.
 
-time.sleep(1) #delay
+time.sleep(3) #delay
 
 #opening a new tab
 pyautogui.hotkey('ctrl', 't')
@@ -102,14 +49,14 @@ pyautogui.hotkey('ctrl', 't')
 pyautogui.write('https://docs.google.com/forms/d/e/1FAIpQLSfZB4Cnh1EZvuS6GweEYM-RnuUOrj0miTTfi5bdfkVvkxbeRg/viewform?pli=1&pli=1')
 pyautogui.press('enter')
 
-time.sleep(3)#delay
+time.sleep(2)#delay
 
 #record email
 pyautogui.press('tab')
 pyautogui.press('tab')
 pyautogui.press('space')
 
-time.sleep(0.5)#delay
+time.sleep(1)#delay
 
 
 #set todays date
@@ -117,9 +64,7 @@ pyautogui.press('tab')
 pyautogui.press('space')
 pyautogui.press('enter')
 
-
-
-time.sleep(0.5)#delay
+time.sleep(1)#delay
 
 #navigate to twitter username
 pyautogui.press('tab')
@@ -130,7 +75,7 @@ pyautogui.press('tab')
 pyautogui.write('ersabinshrestha') #edittt
 
 
-time.sleep(0.5)#delay
+time.sleep(1)#delay
 
 #navigate to twitter post link
 pyautogui.press('tab') 
@@ -139,8 +84,10 @@ pyautogui.press('tab')
 pyautogui.hotkey('ctrl', 'v')
 
 # submit the form
-pyautogui.press('tab')
-pyautogui.press('space')
+# pyautogui.press('tab')
+# pyautogui.press('space')
+
+print("Successfully submitted the log form...")
 
 
 
